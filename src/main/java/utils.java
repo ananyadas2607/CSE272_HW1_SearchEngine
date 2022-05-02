@@ -19,29 +19,6 @@ public class utils {
         return sb.toString();
     }
 
-    //remove stop words from both queries and documents file
-//    public static String remove_stop_words(String str){
-//        String no_and=str.replace(" and ", " ");
-//        String no_AND = no_and.replace(" AND ", " ");
-//        String no_of=no_AND.replace(" of ", " ");
-//        String no_the=no_of.replace(" the ", " ");
-//        String no_in = no_the.replace(" in ", " ");
-//        String no_to = no_in.replace(" to ", " ");
-//        String no_a = no_to.replace(" a ", " ");
-//        String no_for = no_a.replace(" for ", " ");
-//        String no_comma = no_for.replace(", ", " ");
-//        String no_semi = no_comma.replace("; ", " ");
-//        String no_was = no_semi.replace(" was ", " ");
-//        String no_as = no_was.replace(" as ", " ");
-//        String no_at = no_as.replace(" at ", " ");
-//        String no_are = no_at.replace(" are ", " ");
-//        String no_were = no_are.replace(" were ", " ");
-//        String no_that = no_were.replace(" that ", " ");
-//        String no_slash = no_that.replace("/", "");
-//        String no_stop_words = no_slash;
-//        return no_stop_words;
-//    }
-
     public static String remove_stop_words(String str){
         String removeThe=str.replace(" the ", " ");
         String removeA=removeThe.replace(" a "," ");
