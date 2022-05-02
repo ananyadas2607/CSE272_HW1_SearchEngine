@@ -7,7 +7,7 @@ import java.io.IOException;
 public class main {
     public static void main(String args[]) throws IOException, ParseException {
 
-        //SET RANKING TYPE
+        //SET RANKING TYPE-"Boolean" OR "tfidf-Both" OR "tf" OR "RelevanceFeedback" OR "Ananya"
         String rankingType="Boolean";
 
         long startTime=System.currentTimeMillis();
